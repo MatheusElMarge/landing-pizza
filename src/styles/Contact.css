@@ -1,0 +1,91 @@
+.contact-section {
+  padding: 4rem 1rem;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contact-heading,
+.contact-subheading {
+  text-align: center;
+}
+
+.section-label {
+  color: #FF5000;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  text-align: left;
+  align-items: center; /* Centraliza horizontalmente os filhos */
+}
+
+.contact-form > div {
+  max-width: 600px;
+  width: 100%;
+}
+
+.contact-label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: inherit;
+  box-sizing: border-box;
+}
+
+.contact-textarea {
+  resize: vertical;
+}
+
+.contact-button {
+  width: 100%;
+  background-color: #FF5000;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  box-sizing: border-box;
+}
+
+.contact-button:hover {
+  background-color: #e04600;
+}
+
+.button-icon {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .contact-heading,
+  .contact-subheading {
+    text-align: center;
+  }
+}
