@@ -7,8 +7,6 @@ Este é um projeto de landing page para uma pizzaria fictícia, feito com React 
 - React.js
 - Material UI
 - Vite
-- Context API
-- Fetch API
 
 ## Como rodar o projeto
 
